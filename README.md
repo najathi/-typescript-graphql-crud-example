@@ -1,1 +1,1 @@
-# -typescript-graphql-crud-example
+# typescript-graphql-crud-example
