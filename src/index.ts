@@ -17,6 +17,7 @@ import { ApolloServerPluginLandingPageGraphQLPlayground } from "apollo-server-co
       validate: false,
     }),
     plugins: [ApolloServerPluginLandingPageGraphQLPlayground()],
+    context: ({ req, res }) => ({ req, res })
   });
   await apolloServer.start()
 
